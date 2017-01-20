@@ -1,0 +1,79 @@
+html, body {
+	background-color: #111111;
+	height: 100%;
+	min-height: 100%;
+	margin: 0;
+}
+
+.box {
+	margin: auto;
+	width: 90%;
+	height: 90%;
+	max-width: 500px;
+	max-height: 500px;
+	background-color: #4f4f4f;
+	border-radius: 20px 0px 20px 0px;
+	position: relative;
+	top: 5%;
+	padding: 20px 10px;
+	box-shadow: 1px 1px 2px #000;
+}
+
+.window {
+	height: 450px;
+	border-radius: 10px;
+	background-color: #fff;
+	border: 1px solid #000;
+	margin-bottom: 10px;
+	padding: 10px;
+	overflow-x: hidden;
+	overflow-y: auto;
+		font-size: 13px;
+	color: #a1a1a1;
+	font-family: 'Verdana';
+}
+
+.input {
+	background-color: #4f4f4f;
+	width: 100%;
+	bottom: 0%;
+}
+
+#chat-input {
+	height: 100%;
+	width: 83%;
+	border: 1px solid #000;
+	float: left;
+	padding: 2px;
+
+}
+
+#chat-button {
+	height: 100%;
+	width: 13%;
+	border: 1px solid #000;
+	cursor: pointer;
+	float: right;
+	border-radius: 5px;
+	padding: 2px;
+	font-size: 10px;
+}
+p {
+	margin: 0;
+	padding: 0;
+}
+#title {
+	font-size: 35px;
+	color: #659b66;
+	text-shadow: 1px 1px 1px #000;
+	text-align: center;
+	font-weight: bold;
+	font-family: 'Fjalla One', sans-serif;
+	margin-bottom: 10px;
+}
+#init {
+	font-size: 13px;
+	color: #a1a1a1;
+	font-family: 'Verdana';
+	margin-bottom: 10px;
+}
