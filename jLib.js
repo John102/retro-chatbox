@@ -27,6 +27,6 @@ function sendMessage() {
 		document.getElementById('chat-input').focus();
 		// Update Message Window
 		return document.getElementById('window').innerHTML = messageHistory +  
-		'[' + uur + ':' + minuut + ':' + seconde + '] : ' + message + '<br />';
+		'[' + uur + ':' + minuut + ':' + seconde + '] Guest: ' + message + '<br />';
 	}
 };
